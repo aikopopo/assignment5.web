@@ -1,0 +1,97 @@
+#cont2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todoPage {
+    background-color: #efefef;
+    min-height: calc(100vh - 80px);
+}
+
+.form-panel {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.field-label {
+    display: block;
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 6px;
+}
+
+.field-input {
+    display: block;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    padding: 6px 8px;
+    font-size: 13px;
+}
+
+.field-textarea {
+    height: 140px;
+    resize: none;
+}
+
+.add-btn {
+    background-color: #4343f5;
+    color: #ffffff;
+    border: none;
+    padding: 12px 0;
+    width: 130px;
+    font-size: 12px;
+}
+
+.add-btn:hover {
+    background-color: #3030d8;
+}
+
+.task-card {
+    background-color: #ffffff;
+    padding: 6px 6px 24px 6px;
+    margin-bottom: 12px;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #999999;
+}
+
+.task-title {
+    font-size: 14px;
+}
+
+.task-desc {
+    font-size: 11px;
+    color: #555555;
+    margin: 14px 0 0 0;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    padding: 0 4px;
+    cursor: pointer;
+}
+
+.done-btn {
+    color: #555555;
+}
+
+.delete-btn {
+    color: #e00000;
+}
+
+.task-done .task-title,
+.task-done .task-desc {
+    text-decoration: line-through;
+    color: #999999;
+}
